@@ -6,34 +6,119 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
-	font-family: Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
+	font-family: Raleway, Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
   }
-
-  #videoreel {
-	  padding: 0px;
-	  margin: 0px 0px -3px;
-  }
-
-.videom {
-   display: block;
-	 top: 0px;
-	 padding: 0px;
-	 margin: 0px;
-	 width: 100%;
-	 height: 100%;
-	 object-fit: cover;
+/*===========================================================*/
+body {
+	padding: 0 5px;
 }
 
+#wrapper {
+	width: 100%;
+	display: grid;
+}
+/*===========================================================*/
+#headerdiv {
+	background-color: darkgrey;
+	min-height: 200px;
+}
+
+/*NAVIGATION BAR RULES*/
+#navdiv {
+	float: right;
+	padding: 0 20px;
+}
+#navdiv::after {
+	clear-float
+}
+
+
+/*===========================================================*/
+#bodydiv {
+	background-color: grey;
+	min-height: 200px;
+}
+
+.footer {
+	z-index: 5;
+	color: #fff;
+	padding: 15px 0px 7%;
+	text-align: center;
+}
+
+.foot {
+	color: #a9a297;
+	padding: 45px;
+	font-size: 12pt;
+	position: relative;
+}
+
+/*SOCIAL_LINKS*/
+
+#social_links {
+padding: 3%;
+width: 100%;
+background-color: #FFC254;
+}
+
+#social_links a {
+margin: 0 2%;
+display: inline-block;
+}
+
+/*===========================================================*/
+#bannerdiv {
+	background-color: blue;
+	min-height: 200px;
+}
+#thumbnails {
+	background-color: yellow;
+	min-height: 200px;
+}
+#subthumbnails {
+	background-color: green;
+	min-height: 200px;
+}
+
+/*===========================================================*/
+.responsive3 {
+	float: left;
+	width: 33.33%;
+	padding: 0 15px 5px;
+}
+.responsive {
+	float: left;
+	width: 50%;
+	padding: 0 15px 5px;
+}
+
+.thumb {
+	background: white;
+	min-height: 50px;
+}
+
+.subthumb {
+	background-color: white;
+	min-height: 50px;
+}
+
+.subthumb img, .subthumb gif, .thumb img, .thumb gif {
+	width: 100%;
+	object-fit: cover;
+	max-height: 500px;
+	}
+/*===========================================================*/
+
+
+
+/*===========================================================*/
 /*INPUT RULES */
   input {
 	display: none;
 	position: fixed;
 }
 
-/*NAVIGATION BAR RULES*/
-#navbar {
 
-}
 /*STICKY PROPERTIES*/
 #sticky  {
   z-index: 200;
@@ -44,9 +129,12 @@
 	position: -webkit-sticky;
 	background-color: rgb(255, 194, 84);
 }
+/*===========================================================*/
 
 
 
+/*===========================================================*/
+/*
 @media only screen and (max-width: 600px) {
 	 {
 
@@ -55,3 +143,4 @@
 			 display: none;
 		  }
 }
+*/
