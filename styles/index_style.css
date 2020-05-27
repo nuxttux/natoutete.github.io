@@ -70,8 +70,8 @@ header {
 }
 
 .navbar {
+	position: relative;
 	float: right;
-	display: inline-block;
 	word-spacing: 12pt;
 }
 
