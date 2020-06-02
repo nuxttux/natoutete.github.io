@@ -46,10 +46,19 @@ main {
 	display: inline-block;
 	margin: 0 auto;
 }
+
+.about_par {
+	word-wrap: break-word;
+}
+
+#about_wrap {
+	width: 70%;
+	margin: 5% 0;
+}
 /*===========================================================*/
 header {
 	width: 90%;
-	height: 200px;
+	height: 160px;
 	margin: 0 5%;
 }
 
