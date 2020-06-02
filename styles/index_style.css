@@ -238,13 +238,13 @@ margin: 0 2%;
 
 
 /*===========================================================*/
-/*
-@media only screen and (max-width: 600px) {
-	 {
 
-			}
-      .videom {
-			 display: none;
-		  }
+@media only screen and (max-width: 600px) {
+	.responsive {
+		width: 100%;
+	}
+	.natoutete {
+		float: left;
+		left: 10px;
+	}
 }
-*/
