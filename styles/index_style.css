@@ -98,6 +98,13 @@ header {
 	word-spacing: 12pt;
 }
 
+.navbar a {
+	text-decoration: overline;
+	color: rgb(28 30 32);
+	font-size: 13pt;
+	font-weight: bold;
+}
+
 /*===========================================================*/
 footer {
     position: absolute;
