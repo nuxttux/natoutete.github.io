@@ -8,9 +8,16 @@
 	list-style-type: none;
 	font-family: Raleway, Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
   }
+
+	html {
+    position: relative;
+    min-height: 100%;
+}
 /*===========================================================*/
+
 body {
-	#padding: 0 5px;
+    margin: 0 0 115px;
+    /* bottom = footer height */
 }
 
 #wrapper {
@@ -35,13 +42,14 @@ main {
 
 #logotete {
 	position: absolute;
+	padding: 15px 0;
 	width: 90%;
-	padding: 35px;
 	display: inline-block;
 	text-align: center;
 }
 
 .natoutete {
+	width: 130px;
 	position: relative;
 	display: inline-block;
 	margin: 0 auto;
@@ -51,27 +59,33 @@ main {
 	word-wrap: break-word;
 }
 
+.responsive1 {
+	display: inline-block;
+	width: 72%;
+	max-width: 700px;
+}
+
 #about_wrap {
-	width: 70%;
-	margin: 5% 0;
+	text-align: center;
+	padding: 10px;
 }
 /*===========================================================*/
 header {
 	width: 90%;
-	height: 160px;
+	height: 120px;
 	margin: 0 5%;
 }
 
 .site_header {
-	padding: 0 5px;
 	display: inline-block;
+	margin-bottom: 20px;
 }
 
 /*NAVIGATION BAR RULES*/
 #navdiv {
 	position: absolute;
 	width: 90%;
-	padding: 10% 20px;
+	padding: 90px 20px;
 }
 
 #navdiv::after {
@@ -86,7 +100,13 @@ header {
 
 /*===========================================================*/
 footer {
-	#height: 90px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 90%;
+		margin: 0 5%;
+    overflow: hidden;
 }
 
 .footer {
@@ -97,8 +117,8 @@ footer {
 }
 
 .foot {
-	color: #a9a297;
-	padding: 45px;
+	color: rgb(28 30 32);
+	padding: 15px;
 	font-size: 12pt;
 	position: relative;
 }
@@ -106,9 +126,10 @@ footer {
 /*SOCIAL_LINKS*/
 
 #social_links {
-padding: 3%;
+padding: 12px;
+height: 50px;
 width: 100%;
-background-color: #FFC254;
+background-color: rgb(74 209 248);
 }
 
 #social_links a {
@@ -243,8 +264,17 @@ margin: 0 2%;
 	.responsive {
 		width: 100%;
 	}
+
+	#logotete {
+		position: absolute;
+		width: 90%;
+		padding: 20px 0;
+		display: inline-block;
+	}
+
 	.natoutete {
+		width: 90px;
 		float: left;
-		left: 10px;
+		left: 25px;
 	}
 }
