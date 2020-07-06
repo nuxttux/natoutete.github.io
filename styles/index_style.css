@@ -155,6 +155,9 @@ margin: 0 2%;
 	min-height: 200px;
 }
 
+.logotete a {
+	display: block;
+}
 
 .title {
 	display: block;
