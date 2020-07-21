@@ -79,7 +79,7 @@ header {
 }
 
 .site_header {
-	display: inline-block;
+	display: inline-gird;
 	margin-bottom: 75px;
 }
 
@@ -155,9 +155,6 @@ margin: 0 2%;
 	min-height: 200px;
 }
 
-.logotete a {
-	display: block;
-}
 
 .title {
 	display: block;
