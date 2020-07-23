@@ -248,12 +248,12 @@ margin: 0 2%;
 
 
 /*===========================================================*/
-/*INPUT RULES */
+/*INPUT RULES *//*
   input {
 	display: none;
 	position: fixed;
 }
-
+*/
 
 /*STICKY PROPERTIES*/
 #sticky  {

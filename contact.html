@@ -24,6 +24,7 @@
 
   	<link href="./styles/index_style.css" rel="stylesheet" type="text/css">
     <link href="./styles/home_gallary.css" rel="stylesheet" type="text/css">
+    <link href="./styles/formstyle.css" rel="stylesheet" type="text/css">
     <title>About Natoutete Animates</title>
 </head>
 <body>
@@ -54,6 +55,20 @@
         <br>
           Let me know what I can do for you, even if it's to clarify some doubts or say hello!
         </p>
+    </div>
+
+    <div class="responsive1">
+
+      <form class="contact-form" action="contactform.php" method="post">
+        <label for="name">Your Name</label>
+        <input id="name" type="text" name="name" placeholder="Name">
+        <label for="mail">Your E-mail</label>
+        <input id="mail" type="text" name="email" placeholder="Your E-mail">
+        <label for="subject">Subject</label>
+        <input id="subject" type="text" name="subject" placeholder="What's on your mind?">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit" name="submit">Send Mail</button>
+      </form>
     </div>
 
   </div>
