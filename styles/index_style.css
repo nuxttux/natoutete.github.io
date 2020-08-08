@@ -59,8 +59,8 @@ main {
 /*===========================================================*/
 header {
 	width: 90%;
-	height: 180px;
-	padding: 50px 5%;
+	#height: 180px;
+	padding: 30px 5% 50px;
 	margin: 5%;
 }
 
