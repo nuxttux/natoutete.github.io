@@ -58,8 +58,8 @@ main {
 }
 /*===========================================================*/
 header {
+	box-sizing: border-box;
 	width: 90%;
-	#height: 180px;
 	padding: 30px 5% 50px;
 	margin: 5%;
 }
