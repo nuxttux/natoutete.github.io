@@ -41,21 +41,6 @@ main {
 	display: grid;
 }
 
-#logotete {
-	position: absolute;
-	padding: 15px 0;
-	width: 90%;
-	display: inline-block;
-	text-align: center;
-}
-
-.natoutete {
-	width: 130px;
-	position: relative;
-	display: inline-block;
-	margin: 0 auto;
-}
-
 .about_par {
 	word-wrap: break-word;
 }
@@ -74,27 +59,35 @@ main {
 /*===========================================================*/
 header {
 	width: 90%;
-	height: 120px;
-	margin: 5px 5% 0;
+	height: 180px;
+	padding: 50px 5%;
+	margin: 5%;
 }
 
 .site_header {
-	display: inline-gird;
-	margin-bottom: 75px;
+	display: inline-block;
 }
 
 /*NAVIGATION BAR RULES*/
+#logotete {
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+#logotete a {
+	display: block;
+}
+
 #navdiv {
-	position: absolute;
-	width: 90%;
-	padding: 90px 20px 0;
+
 }
 
 #navdiv::after {
-	clear-float;
+	float: clear-float;
 }
 
 .navbar {
+	padding-top: 60px;
 	position: relative;
 	float: right;
 	word-spacing: 12pt;
@@ -220,11 +213,37 @@ margin: 0 2%;
 .responsive {
 	text-align: center;
 	margin-bottom: 20px;
-	float: left;
-	width: 50%;
+	#float: left;
+	display: block;
+	width: 100%;
 	padding: 0;
 	overflow: hidden;
-	padding-right: 2px;
+	#padding-right: 2px;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+#description {
+	padding: 5%;
+	#background-color: #0a2463ff;
+	#background-color: #0a246387;
+	#background-color: #1d46cfff;
+}
+#description, #title, #title_text {
+	display: block;
+	width: 100%;
+}
+
+.tittle {
+	color: #fff;
+	font-size: 46pt;
+	margin: 15px;
+}
+.tittle_text {
+	color: #fff;
+	font-size: 16pt;
+	font-weight: 400;
+	padding: 0 30px;
 }
 
 .thumb {
@@ -237,7 +256,7 @@ margin: 0 2%;
 
 	.img {
 	    width:  100%;
-	    padding: 33%;
+	    padding: 15%;
 			display: block;
 	    background-size: cover;
 			background-position: center;
@@ -275,31 +294,14 @@ margin: 0 2%;
 	.responsive {
 		width: 100%;
 	}
-
+/*
 	header {
 		width: 90%;
 		height: 120px;
 		margin: 25px 5% 0;
 	}
+*/
 
-	#logotete {
-		position: absolute;
-		width: 90%;
-		padding: 20px 0;
-		display: inline-block;
-	}
-
-	.natoutete {
-		width: 100px;
-		float: left;
-		left: 25px;
-	}
-
-	#navdiv {
-		position: absolute;
-		width: 90%;
-		padding: 75px 20px 0;
-	}
 }
 
 @media only screen and (max-width: 520px) {
