@@ -16,8 +16,7 @@
 /*===========================================================*/
 
 body {
-    margin: 0 0 215px;
-    /* bottom = footer height */
+
 }
 
 #wrapper {
@@ -31,8 +30,7 @@ body {
 }
 
 main {
-	width: 98%;
-	margin: 0 1%;
+
 }
 
 #gallery {
@@ -43,6 +41,7 @@ main {
 
 .about_par {
 	word-wrap: break-word;
+	color: #fff;
 }
 
 .responsive1 {
@@ -54,14 +53,11 @@ main {
 
 #about_wrap {
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 /*===========================================================*/
 header {
-	box-sizing: border-box;
-	width: 90%;
-	padding: 30px 5% 50px;
-	margin: 5%;
+
 }
 
 .site_header {
@@ -101,42 +97,7 @@ header {
 }
 
 /*===========================================================*/
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: auto;
-    width: 90%;
-		margin: 0 5%;
-    overflow: hidden;
-		padding-bottom: 25px;
-}
 
-.footer {
-	z-index: 5;
-	color: #fff;
-	text-align: center;
-}
-
-.foot {
-	color: rgb(28 30 32);
-	padding: 15px;
-	font-size: 12pt;
-	position: relative;
-}
-
-/*SOCIAL_LINKS*/
-
-#social_links {
-padding: 12px;
-height: 50px;
-width: 100%;
-background-color: rgb(74 209 248);
-}
-
-#social_links a {
-margin: 0 2%;
-}
 
 /*===========================================================*/
 #bannerdiv {

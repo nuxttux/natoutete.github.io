@@ -14,11 +14,13 @@
 	}
 
 	body {
-		background-color: #3f3f3f;
+		background-color: #4AD1F8;
+		margin: 0 0 182px;
 	}
 
 	header {
-
+		width: 100%;
+		#height: 68px;
 	}
 
 	main {
@@ -30,6 +32,8 @@
 		text-align: center;
 		padding: 48px;
 		background-color: #1B1D1F;
+		bottom: 0;
+		position: absolute;
 	}
 
 		#social_links a {
@@ -100,7 +104,12 @@
 
 /*=======================================================*/
 	#wrapper {
+		#padding: 68px 0 0 0;
 	}
+
+		.wrapper {
+			padding: 68px 0 0 0;
+		}
 
 	.responsive {
 		display: block;
@@ -154,6 +163,7 @@
 
 /*=======================================================*/
 	#reel {
+
 	}
 
 		video {
@@ -169,6 +179,7 @@
 	background-size: cover;
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 	height: 320px;
 	overflow: hidden;
 	filter: brightness(1);
@@ -217,6 +228,7 @@
 
 	}
 	/*============================GRIDS===========================*/
+/*
 	.grid-container {
 	  display: grid;
 	  grid-template-columns: 30% 30% auto;
@@ -250,6 +262,7 @@
 	  grid-column: 1;
 	  grid-row: 3;
 	}
+	*/
 	/*=======================================================*/
 /*
 	.logo img {
