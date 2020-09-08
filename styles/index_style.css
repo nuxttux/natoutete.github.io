@@ -42,13 +42,17 @@ main {
 .about_par {
 	word-wrap: break-word;
 	color: #fff;
+	font-size: 14pt;
+	font-weight: 500;
 }
+
 
 .responsive1 {
 	display: inline-block;
-	width: 75%;
+	width: 60%;
 	max-width: 700px;
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 #about_wrap {
