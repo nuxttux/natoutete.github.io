@@ -1,0 +1,12 @@
+.albumC #gridTop {
+  display: grid;
+	grid-template-columns: repeat(1, 2fr 2fr);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .albumC #gridTop, #gridMid, #gridBot {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+}

@@ -1,0 +1,67 @@
+@import "" screen and (max-width: 768px);
+
+
+#gridTop, #gridMid, #gridBot {
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+	display: grid;
+	grid-template-columns: repeat(1, 2fr 2fr 2fr);
+}
+
+#gridTop .imgA .img, #gridMid .imgA .img, #gridBot .imgA .img {
+  padding: 35% 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.wide3 {
+	grid-column: 1 / span 3;
+}
+
+.wide2 {
+	grid-column: 1 / span 2;
+}
+
+.wide1 {
+	grid-column: 1 / span 2;
+}
+
+.albumB #grigTop {
+	display: grid;
+	grid-template-columns: repeat(1, 2fr 2fr 2fr);
+}
+
+
+.albumB #gridMid {
+	display: grid;
+	grid-template-columns: repeat(1, 2fr 2fr);
+}
+
+	#Top, #Mid, #Bot {
+		width: 100%;
+		text-align: center;
+		padding: 90px 16px 24px;
+	}
+
+.albumB #gridBot {
+	display: grid;
+	grid-template-columns: repeat(1, 2fr 2fr 2fr);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	#gridTop, #gridMid, #gridBot {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 0;
+	}
+}
