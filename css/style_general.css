@@ -68,7 +68,7 @@ h1, h2, h3, p {
 	width: 90px;
 	text-align: center;
 	display: block;
-	padding: 50px 10px;
+	margin: 50px 0;
 	color: #1B1D1F;
 	font-weight: bold;
 	transition: .3s;
