@@ -87,7 +87,7 @@ header {
 }
 
 .navbar {
-	padding-top: 60px;
+	padding-top: 50px;
 	position: relative;
 	float: right;
 	word-spacing: 12pt;
@@ -97,7 +97,7 @@ header {
 	text-decoration: overline;
 	color: rgb(28 30 32);
 	font-size: 13pt;
-	font-weight: normal;
+	font-weight: 420;
 }
 
 /*===========================================================*/
