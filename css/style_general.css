@@ -20,7 +20,7 @@
 }
 
 body {
-	margin: 0 0 185px;
+	margin: 0 0 180px;
 }
 @style_illustration;
 @style_contact;
@@ -38,7 +38,7 @@ h1, h2, h3, p {
 /*+++++++++++++++++++++++++HEADER+++++++++++++++++++++++++++++++++++*/
 
 .nav_container {
-	height: 150px;
+	height: 130px;
 	padding: 12px;
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, p {
 	position: absolute;
 	width: 68px;
 	height: 68px;
-	margin: 25px 80px;
+	margin: 25px 70px;
 	}
 
 		.logo img {
@@ -79,13 +79,46 @@ h1, h2, h3, p {
 
 #wrapper {
 	width: 100%;
-	padding: 25px 0;
+	padding: 15px 0 20px;
 }
 
 .welcome_div {
 	width: 100%;
 	text-align: center;
-	height: 40px;
+}
+
+.WELCOME {
+	margin: 15px 0;
+}
+
+.WELCOME p {
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+.contactbutton {
+	position: relative;
+	margin: 15px 0 10px;
+}
+
+
+.button1 {
+	background-color: #002CDC;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	border: none;
+  color: white;
+  padding: 16px 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11pt;
+	font-weight: 700;
+}
+
+.button1:hover {
+	background-color: #000;
+	padding: 14px 12px 18px;
 }
 
 .container {
@@ -191,6 +224,7 @@ footer {
 .copy p {
 	color: #fff;
 	font-size: 12pt;
+	font-weight: 400;
 }
 
 /*+++++++++++++++++++++++++++DISPLAY_SIZES+++++++++++++++++++++++++++*/
@@ -199,6 +233,7 @@ footer {
 	.albumA {
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 0;
+		padding: 0;
 	}
 
 	.navbar a {
@@ -211,9 +246,11 @@ footer {
 		width: 18px;
 	}
 
-	#wrapper {
-		padding: 0;
+	body {
+		margin: 0 0 185px;
 	}
+
+
 }
 
 

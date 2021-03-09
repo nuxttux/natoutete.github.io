@@ -49,7 +49,7 @@
 	#Top, #Mid, #Bot {
 		width: 100%;
 		text-align: center;
-		padding: 90px 16px 24px;
+		padding: 80px 16px 24px;
 	}
 
 .albumB #gridBot {
@@ -63,5 +63,9 @@
 	#gridTop, #gridMid, #gridBot {
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 0;
+	}
+
+  #Top, #Mid, #Bot {
+		padding: 60px 16px 24px;
 	}
 }
