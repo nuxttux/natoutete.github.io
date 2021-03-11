@@ -60,20 +60,20 @@ h1, h2, h3, p {
 
 .navbar {
 	float: right;
-	margin: 12px;
+	margin: 12px 30px 12px 12px;
 }
 
 .navbar a {
 	position: relative;
-	width: 90px;
+	width: 80px;
 	text-align: center;
 	display: block;
 	margin: 50px 0;
 	color: #1B1D1F;
-	font-weight: bold;
 	transition: .3s;
 	float: left;
-	font-size: 12pt;
+	font-size: 11pt;
+	font-weight: 600;
 	}
 /*+++++++++++++++++++++++++++WRAPER+++++++++++++++++++++++++++++++++*/
 
@@ -198,7 +198,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	padding: 48px;
-	background-color: #1B1D1F;
+	#background-color: #1B1D1F;
 	bottom: 0;
 	position: absolute;
 	color: #fff;
@@ -223,9 +223,9 @@ footer {
 }
 
 .copy p {
-	color: #fff;
+	color: #1B1D1F;
 	font-size: 12pt;
-	font-weight: 400;
+	font-weight: 450;
 }
 
 /*+++++++++++++++++++++++++++DISPLAY_SIZES+++++++++++++++++++++++++++*/
@@ -241,6 +241,10 @@ footer {
 		font-size: 9pt;
 		padding: 0 auto;
 		width: 60px;
+	}
+
+	.navbar {
+		margin: 0 auto;
 	}
 
 	#social_links img {

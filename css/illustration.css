@@ -35,6 +35,10 @@
 	grid-column: 1 / span 2;
 }
 
+.albumB {
+  padding: 0 .2em;
+}
+
 .albumB #grigTop {
 	display: grid;
 	grid-template-columns: repeat(1, 2fr 2fr 2fr);
@@ -52,6 +56,10 @@
 		padding: 15px 16px 24px;
 	}
 
+  .Mid, .Bot {
+    margin-top: 80px;
+  }
+
 .albumB #gridBot {
 	display: grid;
 	grid-template-columns: repeat(1, 2fr 2fr 2fr);
@@ -65,7 +73,8 @@
 		grid-gap: 0;
 	}
 
+
   #Top, #Mid, #Bot {
-		padding: 60px 16px 24px;
+		padding: 20px 16px 24px;
 	}
 }

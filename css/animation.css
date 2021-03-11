@@ -3,6 +3,11 @@
 	grid-template-columns: repeat(1, 2fr 2fr);
 }
 
+.albumD {
+  grid-gap: .4em;
+  padding: 0 5px;
+}
+
 .A1 {
   grid-column: 1 / span 2;
 }
