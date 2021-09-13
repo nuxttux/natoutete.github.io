@@ -204,6 +204,10 @@ footer {
 	color: #fff;
 }
 
+iframe {
+	height: 100%;
+}
+
 #footerFrame {
 	position: absolute;
 	bottom: 0;
