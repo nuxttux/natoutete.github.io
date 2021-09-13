@@ -204,6 +204,13 @@ footer {
 	color: #fff;
 }
 
+#footerFrame {
+	position: absolute;
+	bottom: 0;
+	height: 180px;
+	width: 100%;
+}
+
 #social_links {
 	margin: 0;
 	padding: 0px;
