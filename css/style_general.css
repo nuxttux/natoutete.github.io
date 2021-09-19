@@ -19,9 +19,10 @@
     min-height: 100%;
 }
 
-body {
+#mainBody {
 	margin: 0 0 180px;
 }
+
 @style_illustration;
 @style_contact;
 
@@ -60,7 +61,7 @@ h1, h2, h3, p {
 
 .navbar {
 	float: right;
-	margin: 12px 30px 12px 12px;
+	#margin: 12px 30px 12px 12px;
 }
 
 .navbar a {
@@ -213,6 +214,14 @@ iframe {
 	bottom: 0;
 	height: 180px;
 	width: 100%;
+}
+
+#headerFrame {
+	position: relative;
+	bottom: 0;
+	#height: 130px;
+	width: 100%;
+	overflow: hidden;
 }
 
 #social_links {
