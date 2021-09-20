@@ -22,9 +22,18 @@
 
     	<link href="./css/style_general.css" rel="stylesheet" type="text/css">
 
+      <style>
+        .row1 {
+          width: 100%;
+          padding: 15px 40px;
+          display: grid;
+          grid-template-columns: repeat(1, 2fr 2fr)
+        }
+      </style>
+
       <title>Natoutete Animates</title>
   </head>
-<body>
+<body id="mainBody">
   <header>
     <div class="nav_container">
       <div class="logo">
@@ -43,24 +52,19 @@
     <div class="psi_grid">
       <div class="">
         <img src="./gallery/psi/psi_thumbnail.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto" style="padding:15px 40px">
+
+<div class="row1">
+  <img src="./gallery/psi/thumb1.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto">
+  <img src="./gallery/psi/thumb2.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto">
+</div>
+
         <img src="./gallery/psi/psi_mascot.jpeg" alt="PSI_THUMBNAIL" width="100%" height="auto" style="padding:15px 40px">
+        <img src="./gallery/psi/psi_scene1.jpeg" alt="PSI_THUMBNAIL" width="100%" height="auto" style="padding:15px 40px">
       </div>
     </div>
-  <footer>
 
-      <div id="social_links">
-        <a href="https://twitter.com/natoutete" target="_blank"><img src="./gallery/icons/tw.svg" alt="Twitter Link" style="width:"></a>
-        <a href="https://youtube.com/nuxttuxent" target="_blank"><img src="./gallery/icons/yt.svg" alt="YouTube Link" style="width:" style="color: #fff"></a>
-        <a href="https://instagram.com/natoutete" target="_blank"><img src="./gallery/icons/insta.svg" alt="Instagram Link" style="width:"></a>
-        <a href="https://dribbble.com/jonathandore" target="_blank"><img src="./gallery/icons/dribbble.svg" alt="Dribbble Link" style="width:"></a>
-      </div>
+    <iframe id="footerFrame" src="footer.html"  style="border:none; width:100%;">
+    </iframe>
 
-      <div class="copy">
-        <p>
-          &#169; Jonathan 2021. All rights reserved. All images copyright.
-        </p>
-      </div>
-
-  </footer>
 </main>
 </body>
