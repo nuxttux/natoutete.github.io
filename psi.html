@@ -23,6 +23,13 @@
     	<link href="./css/style_general.css" rel="stylesheet" type="text/css">
 
       <style>
+
+          .IMG-1 {
+             width: 100%;
+             height: auto;
+             padding:15px 40px;
+          }
+
         .row1 {
           width: 100%;
           padding: 15px 40px;
@@ -35,24 +42,20 @@
         video {
           padding: 20px 40px;
         }
+
+        @media only screen and (max-width: 600px) {
+        	video, .row1, .IMG-1  {
+            padding: 17px 25px;
+            }
+          }
       </style>
 
       <title>Natoutete Animates</title>
   </head>
 <body id="mainBody">
-  <header>
-    <div class="nav_container">
-      <div class="logo">
-        <a href="index.html" title="">
-          <img src="./gallery/brand/natouteteLogo.png" alt="" title="" width="50px">
-        </a>
-      </div>
-      <div class="navbar">
-        <a href="reel.html" title="">REEL</a>
-        <a href="about.html" title="">ABOUT</a>
-      </div>
-    </div>
-  </header>
+
+  <iframe id="headerFrame" src="header.html"  style="border:none; width:100%;">
+  </iframe>
 
   <main>
     <div class="psi_grid">
@@ -70,8 +73,8 @@
         </video>
       </div>
 
-        <img src="./gallery/psi/psi_mascot.jpeg" alt="PSI_THUMBNAIL" width="100%" height="auto" style="padding:15px 40px">
-        <img src="./gallery/psi/psi_scene1.jpeg" alt="PSI_THUMBNAIL" width="100%" height="auto" style="padding:15px 40px">
+        <img class="IMG-1" src="./gallery/psi/psi_mascot.jpeg" alt="PSI_THUMBNAIL" >
+        <img class="IMG-1" src="./gallery/psi/psi_scene1.jpeg" alt="PSI_THUMBNAIL">
       </div>
     </div>
 
@@ -80,3 +83,4 @@
 
 </main>
 </body>
+</html>
