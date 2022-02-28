@@ -61,7 +61,7 @@ h1, h2, h3, p {
 
 .navbar {
 	float: right;
-	#margin: 12px 30px 12px 12px;
+	margin: 12px 30px 12px 12px;
 }
 
 .navbar a {
