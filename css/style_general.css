@@ -129,6 +129,10 @@ h1, h2, h3, p {
 	box-sizing: border-box;
 }
 
+#vimeo iframe {
+	padding:0 5%;
+}
+
 /*+++++++++++++++++++++++CONTAINER-HOME+++++++++++++++++++++++++*/
 
 /*+++++++++++++++++++++++++++ALBUM-HOME+++++++++++++++++++++++++++*/
@@ -275,6 +279,10 @@ iframe {
 		margin: 0 0 185px;
 	}
 
+	#vimeo iframe {
+		padding:0;
+	}
+
 
 }
 
@@ -286,6 +294,10 @@ iframe {
 
 	.copy p {
 		font-size: 10pt;
+	}
+
+	#vimeo {
+		display:none;
 	}
 
 }
